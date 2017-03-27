@@ -1,0 +1,84 @@
+html, body {
+	background-image: url(depositphotos_27341185-stock-illustration-seamless-abstract-hand-drawn-pattern.jpg);
+	font-family: arial;
+	font-size: 18px;
+	margin: 0;
+}
+
+.container {
+	background-size: cover;
+}
+
+.container_logo {
+	float: left;
+	margin: 10px;
+ 	width: 30%;
+	text-align: left;
+}
+
+.Menu_container {
+	display: block;
+	width: 15%;
+	text-align: left;
+}
+
+.item {
+	display: inline-block;
+	margin: 0 5px;
+	background: #f1fda6;
+	border: 2px solid #00294b;
+	border-radius: 15%;
+}
+
+.item:hover {
+	background: #D2521E;
+}
+
+.Menu_in {
+	display: none;
+	position: absolute;
+	padding: 0;
+	margin: -22px 127px;
+
+}
+
+.item_in{
+	background: #f1fda6;
+	border: 2px solid #00294b;
+	border-radius: 15%;
+	text-align: center;
+	list-style-type: none;
+}
+
+.item:hover> .Menu_in{
+	display: block;
+
+}
+
+.item_in:hover {
+	background: #D2521E;
+}
+
+.link, .link_in {
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.link, .link_in {
+	color: blue;
+	border: 2px solid red;
+}*/
+
